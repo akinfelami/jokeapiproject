@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nodejs with express</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <style>
+        body{
+            text-align: center;
+        }
+
+        h1{
+            padding: 20px;
+            margin-top: 100px;
+        }
+
+        p{
+            font-family: 'Source Code Pro', monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Akin's Nodejs template Set up😇</h1>    <p> <em>Feel free to use if you wish. Don't forget to credit me though!</em> </p>
+    <p>Before you start coding, use the form below to generate a joke 😂</p>
+
+    <form action="/" method="post">
+        <label for="jokecategory">Pick a category from the Dropdown:</label>
+        <select type="text" name="category" id="jokecategory">
+            <option value="null"></option>
+            <option value="Programming">Programming</option>
+            <option value="Misc">Misc</option>
+            <option value="Dark">Dark</option>
+            <option value="Pun">Pun</option>
+            <option value="Spooky">Spooky</option>
+            <option value="Christmas">Christmas</option>
+        </select>
+        <button type="submit">Generate Joke</button>
+    
+    </form>
+
+    <p>powered by JokeAPI</p>
+</body>
+</html>
